@@ -11,7 +11,7 @@ for i in range(0, all_tickets):
         else:
             return 1390
     prise = sum(map(prise, numbers_ages))
-    discount_prise = prise-((prise /100) * 10)
+    discount_prise = prise - ((prise /100) * 10)
 if all_tickets > 3:
     print('Стоимость за билеты со скидкой: ', discount_prise, "руб.")
 else:
